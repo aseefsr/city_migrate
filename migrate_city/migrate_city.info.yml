@@ -1,0 +1,5 @@
+name: Migrate city
+type: module
+description: City migration functionality
+package: Custom
+core_version_requirement: ^9 || ^10

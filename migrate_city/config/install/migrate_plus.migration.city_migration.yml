@@ -1,0 +1,16 @@
+id: city_migration
+label: 'City Migration'
+migration_group: city
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: 
+    - './json/cities.json'
+destination:
+  plugin: entity:city
+process:
+  label: title
+#  body: body
+#  field_custom_field: custom_field
+migration_dependencies: {}

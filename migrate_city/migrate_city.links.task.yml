@@ -1,0 +1,22 @@
+entity.city.settings:
+  title: 'Settings'
+  route_name: entity.city.settings
+  base_route: entity.city.settings
+entity.city.view:
+  title: 'View'
+  route_name: entity.city.canonical
+  base_route: entity.city.canonical
+entity.city.edit_form:
+  title: 'Edit'
+  route_name: entity.city.edit_form
+  base_route: entity.city.canonical
+entity.city.delete_form:
+  title: 'Delete'
+  route_name: entity.city.delete_form
+  base_route: entity.city.canonical
+  weight: 10
+entity.city.collection:
+  title: 'cities'
+  route_name: entity.city.collection
+  base_route: system.admin_content
+  weight: 10
