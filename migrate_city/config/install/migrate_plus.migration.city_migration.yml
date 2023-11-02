@@ -7,6 +7,12 @@ source:
   data_parser_plugin: json
   urls: 
     - './json/cities.json'
+fields:
+    -
+      name: city
+      label: 'City'
+      selector: City  
+ 
 destination:
   plugin: entity:city
 process:
