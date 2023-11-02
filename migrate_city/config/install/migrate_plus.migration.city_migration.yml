@@ -6,7 +6,7 @@ source:
   data_fetcher_plugin: file
   data_parser_plugin: json
   urls: 
-    - './json/cities.json'
+    - 'public://cities.json'
 fields:
     -
       name: city
