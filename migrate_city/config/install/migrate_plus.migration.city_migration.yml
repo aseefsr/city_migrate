@@ -12,7 +12,13 @@ fields:
       name: city
       label: 'City'
       selector: City  
- 
+    -
+      name: _id
+      label: 'Id'
+      selector: _id
+ids:
+    _id:
+      type: string      
 destination:
   plugin: entity:city
 process:
